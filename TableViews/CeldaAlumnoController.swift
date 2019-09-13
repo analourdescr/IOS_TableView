@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+class CeldaAlumnoController : UITableViewCell{
+    
+    @IBOutlet weak var lblNombre: UILabel!
+}
